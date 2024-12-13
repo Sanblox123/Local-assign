@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./sign.css">
+    <script href="../jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div class="back">
+        <div class="nav">
+            <div class="logo">
+                <h1 class="red">San</h1>
+                <h1 class="yellow">b</h1>
+                <h1 class="green">lox</h1>
+            </div>
+        </div>
+        <h1 class="central">Sign up a new account of the latest e-currency in the globe!</h1>
+    </div>
+    <h2 class="logger">Fill out the sign up fields below</h2>
+    <div class="login">
+        <form id="signupForm">
+            <div>
+                <input type="text" id="name"    placeholder="Enter your name">
+                <p id="n_err"></p>
+            </div>
+            <div>
+                <input type="text" id="email"    placeholder="Enter your email">
+                <p id="e_err"></p>
+            </div>
+            <div>
+                <input type="password" id="pass"    placeholder="Enter your password">
+                <p id="p_err"></p>
+            </div>
+            <div>
+                <input type="password" id="con"    placeholder="Confirm your password">
+                <p id="c_err"></p>
+            </div>
+            <!-- <a href="../login/login.html" id="submit" class="button">Submit</a> -->
+            <button id="submit">Submit</button>
+            <p id="sub_err"></p>
+        </form>
+
+    <script src="./sign.js"></script>
+</body>
+</html>

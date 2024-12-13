@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.back{
+    background-image: url(../images/bitcoin.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 60vh; */
+    width: 100%;
+}
+.nav{
+    height: 70px;
+    width: 20%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    border-radius: 10px;
+}
+.logo{
+    display: flex;
+
+}
+.red{
+    color: red;
+}
+.yellow{
+    color: yellow;
+    font-style: italic;
+}
+.green{
+    color: green;
+}
+.central{
+    font-size: 4rem;
+    width: 60%;
+    color: skyblue;
+    margin: 30px auto;
+    display: flex;
+    text-align: center;
+}
+.login{
+    width: 70%;
+    background-color: #dddd;
+    margin: auto;
+}
+input{
+    width: 100%;
+    height: 50px;
+    margin: 20px auto;
+    outline: none;
+}
+.div{
+    width: 80%;
+    margin: 20px auto;
+}
+.logger{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    width: 30%;
+    height: 50px;
+    margin: 20px auto;
+    border: none;
+    color: black;
+    font-size: 1.5rem;
+}
+.femi{
+    font-size: 1.2rem;
+    margin: auto;
+    padding-left: 300px;
+}
+.intro{
+    color: skyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
